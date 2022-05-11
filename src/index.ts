@@ -1,4 +1,3 @@
-import ValidatorHelper from "@menorepodemo/validatorhelper";
+import { ValidateUserName } from "@menorepodemo/validatorhelper";
 
-console.log("This is index.ts");
-console.log(ValidatorHelper.ValidateUserName("122222222222222"));
+console.log(ValidateUserName("hello"));
